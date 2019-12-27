@@ -1,0 +1,207 @@
+.mark_list {
+	margin: 15px auto;
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	width: 200px;
+}
+
+.group_peaker {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+thead th, tfoot th {
+	font-family: Ubuntu-Regular;
+}
+
+th {
+	letter-spacing: 2px;
+	padding: 10px 10px;
+	background-color: #9999FF;
+}
+
+td {
+	letter-spacing: 1px;
+}
+
+input {
+	width: 20px;
+	border: none;
+	text-align: center;
+}
+
+tbody td {
+	text-align: center;
+	height: 40px;
+	width: 100px;
+}
+
+tfoot th {
+	text-align: right;
+}
+
+.btn {
+	font-family: Ubuntu-Bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+/* 	padding: 0 15px; */
+	width: 100%;
+	height: 30px;
+	background-color: #9999FF;
+	border-radius: 3px;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.btn:hover {
+	background-color: #403866;
+}
+
+.diag_button {
+	margin: 15px auto;
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	/* background-color: #9999FF; */
+	border-radius: 3px;
+}
+
+#container {
+	margin: 15px auto;
+	align-content: center;
+	display: flex;
+	justify-content: center;
+}
+
+.student_name {
+	font-size: 25px;
+	color: #403866;
+	line-height: 1.2;
+	margin: 25px 0px 10px 0px;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+
+/* Popup box BEGIN */
+.hover_bkgr_fricc{
+    cursor:pointer;
+    display:none;
+    justify-content: center;
+    height:50%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+}
+.hover_bkgr_fricc .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 15px;
+}
+.popupCloseButton {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.popupCloseButton:hover {
+    background-color: #ccc;
+}
+.trigger_popup_fricc {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn_container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.button-popup {
+	font-family: Ubuntu-Bold;
+	font-size: 12px;
+	color: #fff;
+	text-transform: uppercase;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+	width: 120px;
+	height: 32px;
+	background-color: #827ffe;
+	border-radius: 3px;
+}
+
+#works_container {
+	margin-top: 20px;
+	justify-content: center;
+	text-align: center;
+	display: grid;
+}
+
+.input-file-popup{
+	border: 1px;
+	border-color: #827ffe;
+	margin: 10px auto;
+	height: 30px;
+	width: 118px;
+}
+
+.diag_button{
+	display: block;
+}
+
+/* Popup box BEGIN */
